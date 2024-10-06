@@ -1,0 +1,21 @@
+mencari nilai tengah dari 20 sampai 34 code c++
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int lower_bound = 20;
+    int upper_bound = 34;
+    double middle_value;
+
+    // calculate the middle value
+    middle_value = (lower_bound + upper_bound) / 2.0;
+
+    // display the middle value
+    cout << "The middle value is: " << middle_value << endl;
+
+    return 0;
+}
